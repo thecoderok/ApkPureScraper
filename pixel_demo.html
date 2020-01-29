@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1904241839800487');
+        fbq('track', "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1904241839800487&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body style="background:lightblue;">
+    <h1>Check out my new cool page!!</h1>
+    <marquee>Check out this marquee if you don't believe me!</marquee>
+    <button onclick="hitme();">Oi Mate!<img src="https://maxcdn.icons8.com/app/uploads/2017/04/hot.gif"></button>
+    <img src="https://66.media.tumblr.com/644b52d647d3ac3df0ba680cbe8eb137/tumblr_mmllmldcMu1qhdg3no1_400.gif" />
+    <img src="https://media.giphy.com/media/mIqBuL6U4q7a8/giphy.gif" />
+</body>
+<script type="text/javascript">
+    function hitme() {
+        //alert("hello!");
+        //Vitalii: 1731934880220208
+        //1904241839800487
+        fbq('trackCustom', 'oi_mate', {promotion: 'share_discount_10%'});
+        //fbq('track', 'AddToWishlist');
+        
+        fbq('track', 'Lead');
+    }
+</script>
+
+</html>
