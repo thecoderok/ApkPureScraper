@@ -1,3 +1,3 @@
 {
-  "killswitch": false
+  "killswitch": true
 }
